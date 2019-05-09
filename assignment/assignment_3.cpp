@@ -53,6 +53,17 @@ int main() {
             scanf ("%d", &matrix[i][j]);
         }
     }
+    
+    // print original matrix
+    printf("Original matrix:\n");
+    for(int i = 1; i<=6; i++){
+        for(int j = 1; j<=6; j++){
+            printf("%d ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+
+    printf("\n");
 
     // print diagonal sum
     int diagonal_sum = diagonalSum();
